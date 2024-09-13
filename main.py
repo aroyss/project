@@ -4,6 +4,6 @@ def fact(n):
     else:
         return n * fact(n-1)
     
-
+# коментар
 for n in range(1,100):
     print(f"n={n}, n!={fact(n)}")
